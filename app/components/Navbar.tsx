@@ -50,12 +50,12 @@ export default function Navbar() {
               </div>
             ) : (
               <button
-                onClick={connectWallet}
-                className="flex items-center gap-2 px-6 py-2.5 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white font-semibold shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105"
-              >
-                <FaWallet className="text-lg" />
-                <span>Connect Wallet</span>
-              </button>
+              onClick={connectWallet}
+              className="flex items-center gap-1.5 px-4 py-1.5 sm:px-5 sm:py-2 md:px-6 md:py-2.5 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-500 hover:to-pink-500 text-white text-sm font-medium shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105"
+            >
+              <FaWallet className="text-base" />
+              <span>Connect Wallet</span>
+            </button>
             )}
           </div>
           <div className="md:hidden">
