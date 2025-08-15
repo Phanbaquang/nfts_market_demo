@@ -32,3 +32,5 @@ NEXT_PUBLIC_OPENSEA_API_KEY=     # optional
 ## Notes
 - `/api/nfts` returns mock items by default for local dev.
 - Hook up real wallet connect (wagmi/RainbowKit) and transaction flow as needed.
+## Link demo 
+- https://nftsmarketdemov1.vercel.app/
