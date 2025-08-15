@@ -11,15 +11,12 @@ npm run dev
 
 Open http://localhost:3000
 
-<!-- ## Env
+## Env
 Create `.env.local`:
 ```
-NEXT_PUBLIC_SELLER_ADDRESS=0xYourSellerOnSepolia
-NEXT_PUBLIC_RPC_URL=https://sepolia.infura.io/v3/YOUR_KEY
-NEXT_PUBLIC_CHAIN_ID=11155111
-NEXT_PUBLIC_ERC20_TOKEN_ADDRESS= # optional USDT testnet
-NEXT_PUBLIC_OPENSEA_API_KEY=     # optional
-``` -->
+NEXT_PUBLIC_ETHERSCAN_API_KEY = CXX1MNUU8UDRCVE3URQ82SKZZIXMQV2T8I
+```
+
 ## Ai tool 
   `` Chat GPT
   `` V0dev 

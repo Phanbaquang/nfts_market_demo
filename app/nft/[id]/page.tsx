@@ -23,7 +23,18 @@ export default function NftDetailPage() {
         <div className="text-xl">
           Price: <b>{item.price} ETH</b>
         </div>
-        <BuyNftButton price={item.price} />
+        {/* <BuyNftButton price={item.price} /> */}
+        
+        {item.status === "sold" ? (
+          <button
+            disabled
+            className="w-full px-4 py-2 rounded-lg bg-gray-400 text-white font-semibold cursor-not-allowed"
+          >
+            Đã bán hết
+          </button>
+        ) : (
+          <BuyNftButton price={item.price} />
+        )}
       </div>
     </div>
   );
