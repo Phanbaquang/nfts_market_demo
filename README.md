@@ -20,7 +20,9 @@ NEXT_PUBLIC_CHAIN_ID=11155111
 NEXT_PUBLIC_ERC20_TOKEN_ADDRESS= # optional USDT testnet
 NEXT_PUBLIC_OPENSEA_API_KEY=     # optional
 ``` -->
-
+## Ai tool 
+  `` Chat GPT
+  `` V0dev 
 ## Structure
 - `app/` pages (Home, NFT detail, Favorites, Transactions)
 - `redux/` store and slices
