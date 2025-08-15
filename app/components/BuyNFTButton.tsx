@@ -13,6 +13,7 @@ const BuyNftButton: React.FC<BuyNftButtonProps> = ({ price }) => {
   const { account } = useSelector((state: RootState) => state.wallet);
 
   const handleBuy = async () => {
+
     if (!window.ethereum) {
       toast.error("MetaMask chưa được cài!");
       return;
